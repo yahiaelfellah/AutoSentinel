@@ -207,7 +207,7 @@ while(i_file != "end"):
             if(cur_cent==last_cent and last_cent!=[0,0]):
                     cv2.rectangle(sub,(cx-15,cy-15),(cx+15,cy+15),(255,255,255),1)
                     cv2.rectangle(img,(cx-7,cy-7),(cx+7,cy+7),(0,255,0),2)
-                    print("---------------------------------------------------------------------------")
+
 
             if(len(cluster_centres_q)>=1):
                     temp_a = deepcopy(cluster_centres_q[0])
